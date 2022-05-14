@@ -10,28 +10,106 @@ body {
     width: 1200px;
     margin: 0 auto;
     justify-content: center;
+    width: 100%;
 }
 
 .main-content {
     background-color: #fff;
-    padding-top: 102px;
+    padding-top: 100px;
     padding-left: 88px;
     width: 830px;
 }
 
+.title-position {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    margin-bottom: 20px;
+}
+
+.title-username {
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 55px;
+    margin-bottom: 25px;
+}
+
 .text-about-user {
-    width: 520px;
+    width: 500px;
     font-weight: 400;
     font-size: 14px;
-    line-height: 24px;  
+    line-height: 24px;
+    margin-bottom: 40px;
 }
 
 .projects {
-    width: 485px;
+    margin-bottom: 50px;
+}
+
+.main-content-titles {
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 27px;
+}
+
+.projects-list {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+    padding-left: 16px;
+    margin-top: 8px;
+    margin-bottom: 0;
+}
+
+.links-for-projects {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #595959;
+    text-decoration: none;
+}
+
+.dots {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #595959;
+    text-decoration: none;
+}
+
+.pages-technology {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #595959;
 }
 
 .work-experience {
     width: 525px;
+}
+
+.main-content-titles {
+    margin: 0;
+}
+
+.work-experience-1 {
+    margin-top: 12px;
+}
+
+.work-pos {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    color: black;
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+
+.company-name {
+    color: #FB6D3A;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;  
 }
 
 .period-of-work {
@@ -39,68 +117,144 @@ body {
     font-size: 12px;
     line-height: 15px;
     color: #A8A8A8;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.vertline {
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+    color: black;
+}
+
+.list-of-duties {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+    color: #595959;
+    padding-left: 16px;
+    margin: 0;
 }
 
 
-.left-panel {
-    background-color: #1E2939;
+.duty-item {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #595959;
+    margin: 0;
+}
+
+.work-experience-2 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.education {
+    margin-top: 40px;
+}
+
+.education-title {
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 27px;
+    margin: 0;
+}
+
+.place-of-education {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    color: #FB6D3A;
+    margin-top: 12px;
+    margin-bottom: 10px;
+}
+
+.branch {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    color: black;
+    margin-bottom: 12px;
+    margin-top: 0;
+}
+
+
+
+
+.sidebar {
+    background: #1E2939;
     width: 370px;
-    height: 1320px;
 }
 
-.picture {
+.avatar {
     width: 370px;
     margin-top: 40px;
-    }
+}
 
 .contacts {
-    margin-top: 52px;
+    margin-top: 50px;
     margin-left: 40px;
+    margin-bottom: 45px;
+}
+
+.sidebar-title {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 27px;
     color: white;
+}
+
+.contact-type {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+    margin-right: 16px;
+    color: white;
+}
+
+.contact-link-tel {
+    color: #8E949C;
+    text-decoration: none;
+}
+
+.contact-link-email {
+    color: #8E949C;
 }
 
 .tech-skills {
-    margin-top: 48px;
     margin-left: 40px;
-    margin-bottom: 44px;
+    margin-bottom: 45px;
+}
+
+.techskills-list {
+    color: #FB6D3A;
+    padding-left: 16px;
+    margin-top: 12px;
+}
+
+.techskills-text {
     color: white;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
 }
 
 .soft-skills {
     margin-left: 40px;
+}
+
+.softskills-list {
+    color: #FB6D3A;
+    padding-left: 16px;
+    margin-top: 12px;
+}
+
+.softskills-text {
     color: white;
-}
-
-h1 {
-    font-weight: 700;
-    font-size: 45px;
-    line-height: 55px;
-}
-h2 {
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 17px;
-}
-
-h3 {
-    font-weight: 700;
-    font-size: 22px;
-    line-height: 27px;
-}
-
-h4 {
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 20px;
-}
-
-h5 {
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 17px;
-}
-
-p {
     font-weight: 400;
     font-size: 14px;
     line-height: 24px;
