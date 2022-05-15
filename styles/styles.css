@@ -1,23 +1,21 @@
 body {
     font-family: 'Montserrat', sans-serif;
+    background: #F5F7FA;
 }
 
 .main {
-    background: #E5E5E5;
+
     display: flex;
     flex-direction: row-reverse;
-    padding: 40px;
     width: 1200px;
     margin: 0 auto;
-    justify-content: center;
-    width: 100%;
 }
 
 .main-content {
     background-color: #fff;
-    padding-top: 100px;
-    padding-left: 88px;
+    padding: 100px 90px;
     width: 830px;
+    box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
 }
 
 .title-position {
@@ -40,6 +38,7 @@ body {
     font-size: 14px;
     line-height: 24px;
     margin-bottom: 40px;
+    color: #595959;
 }
 
 .projects {
@@ -67,6 +66,7 @@ body {
     line-height: 24px;
     color: #595959;
     text-decoration: none;
+    margin-left: 10px;
 }
 
 .dots {
@@ -258,4 +258,14 @@ body {
     font-weight: 400;
     font-size: 14px;
     line-height: 24px;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+}
+
+.footer-text {
+    width: 1100px;
+    text-align: center;
 }
